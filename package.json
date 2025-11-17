@@ -15,5 +15,9 @@
   },
   "bin": {
     "play-cli": "./index.ts"
+  },
+  "scripts": {
+    "dev": "bun run index.ts",
+    "build": "echo 'No build needed for this CLI tool'"
   }
 }
